@@ -48,4 +48,8 @@ public class OrderService {
     public List<Order> getAllOrders() {
         return orderRepository.findAll();
     }
+
+    public String getOrderDescription(String orderId) {
+        return "Dummy Order Description";
+    }
 }
